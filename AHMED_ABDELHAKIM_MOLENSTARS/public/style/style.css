@@ -1,0 +1,682 @@
+@font-face {
+    font-family: "OswaldMedium";
+    src: url('./../src/fonts/OswaldMedium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'OswaldRegular';
+    src: url('./../src/fonts/OswaldRegular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'RobotoBold';
+    src: url('./../src/fonts/RobotoBold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'RobotoMedium';
+    src: url('./../src/fonts/RobotoMedium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'RobotoRegular';
+    src: url('./../src/fonts/RobotoRegular.ttf') format('truetype');
+  }
+
+body {
+    margin: 0;
+}
+.mysection5 {
+    margin: 0;
+    height: fit-content;
+    width: 100%;
+    background-color: #0A1650;
+    display: flex;
+    justify-content: end;
+    background-image: url(../src/images/overly-img.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.titlecolor {
+    color: #3CB3DD;
+    font-family: "RobotoRegular";
+}
+.title {
+    color: white;
+    font-family: "RobotoRegular";
+    font-size: 3.1em;
+}
+.margintopzero {
+    margin-top: 0;
+}
+.marginbottomzero {
+    margin-bottom: 0;
+}
+.text {
+    color: #6B80C1;
+    font-size: 1.25em;
+    line-height: 1.6em;
+}
+.textofsection5 {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.divofprogress {
+    display: flex;
+    justify-content: space;
+    gap: 50px
+}
+.displayflex {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+.circleprogress {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border: 3px solid #3AA5D3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.threecircle {
+    gap: 50px
+}
+.percentcircle {
+    color: white;
+    font-size: 2.5em;
+    font-family: "OswaldRegular";
+}
+.pofcircle {
+    color: white;
+    font-family: "RobotoBold";
+    font-size: 1.2em;
+}
+
+
+.cotedroit {
+    height: 799px;
+    width: 951px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background-image: url(../src/images/service-right-bg-img.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.squadright {
+    width: 465px;
+    height: 305px;
+    border-top-left-radius: 20px;
+    background-color: #0AD3EF;
+    color: white;
+}
+.contentofsquad {
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.contentofsquad a {
+    text-decoration: none;
+    color: white;
+}
+
+.textofsquad {
+    font-size: 1.25em;
+    line-height: 1.4em;
+    color: #CFFFFF;
+    font-family: "RobotoRegular";
+}
+.fontsize13em {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+.mysection6 {
+    display: flex;
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 100%;
+    background-color: #122061;
+    background-image: url("../src/images/vague.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+.linebylineofsquare {
+    display: flex;
+    gap: 30px;
+}
+.child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    height: 245px;
+    width: 275px;
+    border-radius: 20px;
+    background-color: #17256E;
+}
+#child1{
+    margin-bottom: 30px;
+}
+
+
+.thebutton {
+    border-radius: 50px;
+    background-color: #0AD3EF;
+    color: white;
+    padding: 20px 52px;
+    font-size: 1em;
+}
+#textsection6 {
+    margin-bottom: 45px;
+}
+.alltextinright {
+    width: 540px;
+}
+.h1ofcard {
+    color: white;
+    font-size: 2.3em;
+    font-family: "OswaldRegular";
+    margin-top: 15px;
+}
+.text2 {
+    color: #6B80C1;
+    font-size: 1.25em;
+}
+
+
+
+
+
+
+
+
+
+
+.section7 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    color: white;
+    width: 100%;
+    padding-bottom: 120px;
+    background-color: #0A1650;
+    background-image: url(../src/images/overly-img.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.titlesection7 {
+    color: white;
+    font-family: "RobotoBold";
+    font-size: 3.1em;
+}
+
+.parent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+
+}
+.center {
+    text-align: center;
+}
+.child1carre {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 20px;
+    height: 430px;
+    width: 490px;
+    padding: 30px;
+}
+.child1carre a{
+    color: white;
+}
+#child1s7gauche {
+    background-image: url("../src/images/blog-post-img1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#child1s7gauche:hover {
+    background-size: 105%;
+}
+#child1s7droite {
+    background-image: url("../src/images/blog-post-img2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#child1s7droite:hover {
+    background-size: 105%;
+}
+
+.child1carre a {
+    text-decoration: none;
+}
+
+
+
+.section8 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    color: white;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    background-image: url(../src/images/overly-img1.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 100%;
+    background-color: #0A1650;
+}
+
+.horizontal-row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.colum {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.inputinrow {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin-bottom: 35px;
+}
+.inputinrow input {
+    width:  331px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: #0A1650;
+    border: 1px solid #1E2C69;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.inputmessage {
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 1111px;
+    resize: none;
+    background-color: #0A1650;
+    color: white;
+    outline: none;
+    border: 1px solid #1E2C69;
+    border-radius: 10px;
+}
+
+
+
+
+.thebutton2 {
+    border-radius: 50px;
+    background-color: #0AD3EF;
+    color: white;
+    padding: 20px 60px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section9 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    color: white;
+    background-color: #122061;
+    background-image: url("../src/images/vague.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+#firstcolum {
+    width: 380px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+#imgsize {
+    height: 177px;
+    width: 200px;
+}
+.line {
+    display: flex;
+}
+.checkbox {
+    width: 15px;
+    background-color: rgb(21, 21, 103);
+    accent-color: rgb(21, 21, 103);
+}
+.centeritem {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.entermail {
+    width:  200px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: #122061;
+    border: 1px solid #1E2C69;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+}
+#column2 p, #column3 p, #column4 p {
+    margin-top: 0;
+    color: #6B80C1;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+#column2, #column3, #column4 {
+    line-height: 1.5em;
+    
+}
+#column2 {
+    margin-right: 100px;
+}
+#column3 {
+    width: 260px;
+}
+/* @media screen and (min-height: 320px) and (max-height: 375px) {
+    .cotedroit{
+        display: flex;
+        flex-wrap: wrap;
+    }
+} */
+
+
+@media screen and (min-width: 320px) and (max-width: 426px ){
+    .cotedroit{
+        display: flex;
+        flex-wrap: wrap;
+        width: 211.33px;
+        height: 177.55px;
+    }
+    .squadright {
+        width: 103.33px;
+        height: 67.77px;
+    }
+    .contentofsquad {
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .contentofsquad img {
+        width: 5%;
+        height: 5%;
+    }
+    .contentofsquad p, a {
+        display: none;
+    }
+    
+
+    .mysection5 {
+        height: fit-content;
+    }
+    .mysection5, .textofsection5{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .threecircle {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .mysection6{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card4, .linebylineofsquare {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .child1carre {
+        height: 200px;
+        width: 200px;
+    }
+
+
+
+    .inputinrow {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputinrow input {
+        width: 200px;
+    }
+    .inputmessage {
+        width: 200px;
+    }
+    #column2 {
+        margin-right: 0;
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 425px) and (max-width: 767px ){
+    .cotedroit{
+        display: flex;
+        flex-wrap: wrap;
+        width: 317px;
+        height: 266.33px;
+    }
+    .squadright {
+        width: 155px;
+        height: 101.66px;
+    }
+    .contentofsquad {
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .contentofsquad img {
+        width: 10%;
+        height: 10%;
+    }
+    .contentofsquad p, a {
+        display: none;
+    }
+    
+
+    .mysection5 {
+        height: fit-content;
+    }
+    .mysection5, .textofsection5{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .threecircle {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .mysection6{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card4, .linebylineofsquare {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .child1carre {
+        height: 300px;
+        width: 300px;
+    }
+
+
+
+    .inputinrow {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputmessage {
+        width: 331px;
+    }
+    #column2 {
+        margin-right: 0;
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width: 767px) and (max-width: 1024px ){
+    .cotedroit{
+        display: flex;
+        flex-wrap: wrap;
+        width: 475.5px;
+        height: 399.5px;
+    }
+    .squadright {
+        width: 232.5px;
+        height: 152.5px;
+    }
+    .contentofsquad {
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .contentofsquad img {
+        width: 20%;
+        height: 20%;
+    }
+    .contentofsquad p, a {
+        display: none;
+    }
+    .mysection5 {
+        height: fit-content;
+    }
+    .mysection5, .textofsection5{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .mysection6{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .inputinrow {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputmessage {
+        width: 331px;
+    }
+    #column2 {
+        margin-right: 0;
+    }
+}
